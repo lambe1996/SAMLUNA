@@ -1,0 +1,100 @@
+body{
+  background-image: url(../img/bg-content.jpeg);
+  background-size: cover;
+  max-height: 1280px;
+  }
+
+.pr_header{
+	/*background-color: #;*/
+	border-bottom: 1px solid;
+	border-color:  #555;
+}
+.pr_top_header{
+	padding:  1em 2em 1em 2em;
+	font-family: fangsong;;
+		color:  black;
+	font-size: 54px;
+	font-weight: 700;
+}
+.pr_content{
+	background-image: url("../img/bg-content.jpg");
+	background-size: conta;
+}
+.pr_title{
+	color: white;
+}
+.pr_sub_title{
+	color: black;
+	font-size: 1.3em;
+	margin-top: 30%;
+}
+.pr_m{
+	margin-top: 15%;
+}
+.carousel-item img{
+	max-width: 100%;
+	max-height: 545px;
+	border-radius: 5%;
+}
+.carousel-indicators [data-bs-target]{
+	width: 20px;
+	height: 20px;
+	border-radius:  50%;
+}
+.nav-item{
+	margin-right:  5%;
+}
+.nav-link{
+	color: #150302;
+}
+.sec-thumbs img{
+	max-height:  50% !important;
+}
+.third-thumbs img{
+	margin-top:  55%;
+	max-height: 50%;
+}
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.like {
+  font-size: 1.5rem;
+}
+.card img{
+	max-height:  400px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #222;
+   text-align: center;
+}
